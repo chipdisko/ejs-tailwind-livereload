@@ -1,0 +1,12 @@
+<%
+  const pageMeta = {
+    title:'index',
+    description: '',
+  }
+%>
+<%- include('components/_meta.ejs', { meta: pageMeta } )%>
+<%- include('components/_header.ejs') %>
+<main>
+  <p class="text-6xl text-blue-500 hover:text-red-200"> halo,   try hover me!</p>
+</main>
+<%- include('components/_footer.ejs') %>
